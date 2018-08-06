@@ -3,7 +3,7 @@ TESTS WITH ERRORS
 TESTS FAILED  
 test_2 (gradingtests.UnitTests)
 Traceback (most recent call last):
-  File "C:\Users\finle\Desktop\hammond\guiapp\app\Automated Grader-win32-x64\resources\app\testing\assignment-5\gradingtests.py", line 82, in test_2
+  File "C:\Users\finle\Desktop\hammond\guiapp\app\testing\assignment-5\gradingtests.py", line 82, in test_2
     self.assertEqual(ans[0], gold)
 AssertionError: Lists differ: [[], [], [], []] != [((3, 1), (1, 1)), ((3, 3), (3, 1)), ((1, [43 chars] 0))]
 
@@ -24,7 +24,7 @@ First extra element 4:
 
 test_3 (gradingtests.UnitTests)
 Traceback (most recent call last):
-  File "C:\Users\finle\Desktop\hammond\guiapp\app\Automated Grader-win32-x64\resources\app\testing\assignment-5\gradingtests.py", line 104, in test_3
+  File "C:\Users\finle\Desktop\hammond\guiapp\app\testing\assignment-5\gradingtests.py", line 104, in test_3
     self.assertEqual(ans[0], gold)
 AssertionError: Lists differ: [[], [], []] != [((0, 1), (2, 1)), ((3, 0), (3, 2)), ((2, 1), (2, 3)), ((1, 0), (3, 0))]
 
